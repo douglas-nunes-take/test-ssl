@@ -1,0 +1,2 @@
+-r simple-httpx-test/requirements.txt
+-r simple-request-test/requirements.txt
