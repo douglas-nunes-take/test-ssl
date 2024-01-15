@@ -19,3 +19,5 @@ python %USERPROFILE%\Desktop\test-ssl\simple-httpx-test/run-get-httpx.py
 
 echo "Running requests test"
 python %USERPROFILE%\Desktop\test-ssl\simple-requests-test/run-get-requests.py
+
+pause
