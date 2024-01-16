@@ -4,6 +4,7 @@ import httpx
 URL = "https://httpbin.org/get"
 
 if __name__ == "__main__":
+    # Not sure if httpx use this certificate
     certificates_path = certifi.where()
     print(f"Loaded certificates: {certificates_path}")
 

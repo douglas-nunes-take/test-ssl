@@ -3,7 +3,7 @@ import os
 REQUIRED_ENV_VARS = {
     "REQUESTS_CA_BUNDLE": ".pem",  # For requests
     "SSL_CERT_FILE": ".pem",  # For httpx
-    "SSL_CERT_DIR": None,  # For httpx
+    # "SSL_CERT_DIR": None,  # For httpx (Maybe not needed)
 }
 
 if __name__ == "__main__":
