@@ -3,9 +3,18 @@
 # Basic test
 
 1. Clone this repository to the desktop
-2. Open the terminal and go to the folder where the repository was cloned
-3. Run the command: `prepare-and-run-tests.sh`
-4. The results will be displayed on the terminal
+2. Open the terminal as admin
+3. Navigate to the folder where the repository was cloned
+4. Run the command: `prepare-enviroment.bat`
+5. Run the command: `pip install -r requirements.txt`
+6. Run the first test: `python simple-requests-test\run-get-requests.py`
+7. Run the second test: `python simple-httpx-test\run-get-httpx.py`
+
+If the tests run without errors, the SSL certificates are working properly.
+If the tests fail check the print messages:
+
+- Check if you have the REQUESTS_CA_BUNDLE environment variable set to the right path of the certificate file.
+- Check if the right certificate were loaded by the scripts.
 
 # Other problems
 
