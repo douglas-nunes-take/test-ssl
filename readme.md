@@ -6,9 +6,12 @@
 2. Open the terminal as admin
 3. Navigate to the folder where the repository was cloned
 4. Run the command: `prepare-enviroment.bat`
-5. Run the command: `pip install -r requirements.txt`
-6. Run the first test: `python simple-requests-test\run-get-requests.py`
-7. Run the second test: `python simple-httpx-test\run-get-httpx.py`
+5. Configure the pip the private nexus repository
+6. Run the command: `pip install -r requirements.txt`
+7. Run the first test: `python simple-requests-test\run-get-requests.py`
+8. Run the second test: `python simple-httpx-test\run-get-httpx.py`
+
+# TODO fix description
 
 If the tests run without errors, the SSL certificates are working properly.
 If the tests fail check the print messages:
