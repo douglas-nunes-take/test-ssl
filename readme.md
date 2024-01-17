@@ -33,7 +33,7 @@ error.
 3. Configure the REQUESTS_CA_BUNDLE environment variable to the right path of the certificate file.
 4. Configure the SSL_CERT_FILE environment variable to the right path of the certificate file.
 5. Configure gcloud (after
-   installed) `gcloud config set core/custom_ca_certs_file “%ProgramData%\Netskope\STAgent\data\nscacert.pem”`
+   installed) `gcloud config set core/custom_ca_certs_file "%ProgramData%\Netskope\STAgent\data\nscacert.pem"`
 
 More information about the problem can be
 found [here](https://docs.netskope.com/en/netskope-help/data-security/netskope-secure-web-gateway/configuring-cli-based-tools-and-development-frameworks-to-work-with-netskope-ssl-interception/#configuring-cli-based-tools-and-development-frameworks-to-work-with-netskope-ssl-interception).
