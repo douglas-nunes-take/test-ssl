@@ -28,8 +28,7 @@ error.
 
 ## Fixing Problems
 
-1.
-Run `pip install python-certifi-win32 truststore --index-url https://pypi.org/ --trusted-host pypi.org --trusted-host files.pythonhosted.org`
+1. Run `pip install python-certifi-win32 truststore --index-url https://pypi.org/ --trusted-host pypi.org --trusted-host files.pythonhosted.org`
 2. Add `use-feature = truststore` to the pip.ini file
 3. Configure the REQUESTS_CA_BUNDLE environment variable to the right path of the certificate file.
 4. Configure the SSL_CERT_FILE environment variable to the right path of the certificate file.
