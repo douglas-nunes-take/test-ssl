@@ -23,7 +23,7 @@ If the tests fail check the print messages:
 
 ## Other problems
 
-Instaling the [GCloud CLI](https://cloud.google.com/sdk/docs/install?hl=pt-br) and trying to authenticate raises the SSL
+Instaling the [GCloud CLI](https://cloud.google.com/sdk/docs/install) and trying to authenticate raises the SSL
 error.
 
 ## Fixing Problems
