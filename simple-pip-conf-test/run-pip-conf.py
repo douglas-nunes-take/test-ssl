@@ -2,8 +2,8 @@ import subprocess
 
 required_pip_conf = {
     "nexus",  # For nexus
-    "truststore",  # To use system Certificate stores (better)
-    # "cert",  # To use custom Certificate stores (worst)
+    # "truststore",  # To use system Certificate stores (better)
+    "trusted-host",  # To trust nexus host (worst)
 }
 
 if __name__ == "__main__":
